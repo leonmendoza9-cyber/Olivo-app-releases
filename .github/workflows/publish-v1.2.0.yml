@@ -1,0 +1,47 @@
+name: Publicar DATASAPHI 1.2.0
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publish-v1.2.0.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Descargar y verificar instalador firmado
+        shell: bash
+        run: |
+          asset="Banco de Germoplasma-INIA_1.2.0_x64-setup.exe"
+          curl --location --fail --retry 3 --retry-delay 5 \
+            "https://drive.usercontent.google.com/download?id=1BYOWz8kSJZPxzwqPlFGjvzcPx_Vwmin3&export=download&confirm=t" \
+            --output "$asset"
+          echo "2101992A74CC84CCD4A8059935901E9DC57923E5DE8056231BE44C7CB665F72C  $asset" | sha256sum --check -
+
+      - name: Publicar versión
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          if gh release view v1.2.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "La versión v1.2.0 ya existe."
+            exit 0
+          fi
+
+          gh release create v1.2.0 \
+            "Banco de Germoplasma-INIA_1.2.0_x64-setup.exe#Instalador firmado para Windows x64" \
+            "release/v1.2.0/Banco de Germoplasma-INIA_1.2.0_x64-setup.exe.sig#Firma del actualizador" \
+            "release/v1.2.0/latest.json#Manifiesto del actualizador" \
+            --repo "$GITHUB_REPOSITORY" \
+            --target main \
+            --title "DATASAPHI 1.2.0" \
+            --notes-file "release/v1.2.0/RELEASE_NOTES.md"
