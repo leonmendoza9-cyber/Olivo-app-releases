@@ -1,0 +1,28 @@
+name: Actualizar manifiesto DATASAPHI 1.2.0
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-v1.2.0-manifest.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Reemplazar manifiesto del actualizador
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload v1.2.0 \
+            "release/v1.2.0/latest.json#Manifiesto del actualizador" \
+            --clobber \
+            --repo "$GITHUB_REPOSITORY"
