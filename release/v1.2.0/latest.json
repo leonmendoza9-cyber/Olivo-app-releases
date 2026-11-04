@@ -1,0 +1,12 @@
+{
+  "version": "1.2.0",
+  "notes": "DATASAPHI 1.2.0 migra las bases de evaluación, exportaciones, anuarios y documentos de análisis de suelo al almacenamiento físico del disco. Incluye correcciones de lectura de bases importadas, avance de campaña y copias de seguridad.",
+  "pub_date": "2026-11-04T04:21:48Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFdRQklFZnhaYkppeW5jZnl3T0tkam43UzVJRjcyQ0VmQ2t5d0VQVnUxYXNYd2tMMCtiWXYvVVhla0hTWkhyT3BDK0tJZHpzWWY4cWxNaHRTUHpsK2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY1OTA5CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuMF94NjQtc2V0dXAuZXhlCjFCb1VqSmczWnBMM05sbndaMm5pZ1kxQjdFcytlMmdxRE9VbHlTSFpwRkdLcFFDajZRNUlyZHhZejdjTFNZd254RDBvUkl4Z01FQzZXQ2gwM1hyR0JnPT0K",
+      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.0/Banco%20de%20Germoplasma-INIA_1.2.0_x64-setup.exe"
+    }
+  }
+}
+
