@@ -1,0 +1,11 @@
+{
+  "version": "1.2.1",
+  "pub_date": "2026-11-10T14:21:37Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFhHVWZMOHoyQTQza1FYOTNVQWFTQzU5UlhackRINjA2MDFjanFyQnZXYUZGL25NdXRaMWhvZGg3MUh3ZXpBK0psSVlJejJsODRGMk80dkVDZDlmZUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzIwNDk2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuMV94NjQtc2V0dXAuZXhlCk1kVlBJMmtPWVVOTGxRRndneDFjYS9Nd1pFVFdxUTN4ekwyczJyMS9FdjlsM3VsSVVpdXc2c1ZaS3E1Q3dYZHV4Mmx6TlJsMlVDMTFVTy9XdlhZdUN3PT0K",
+      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.1/Banco.de.Germoplasma-INIA_1.2.1_x64-setup.exe"
+    }
+  },
+  "notes": "Actualizacion del programa. Sin migracion de datos."
+}
