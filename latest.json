@@ -1,11 +1,11 @@
 {
-  "version": "1.2.3",
-  "pub_date": "2026-11-10T16:37:36Z",
-  "notes": "BETA v1.2.3: restaura la conexión automática por COM5 y permite cualquier puerto COM detectado por Windows. Mantiene los reintentos y el canal de respaldo del actualizador. Conserva y respalda los registros antes de instalar.",
+  "notes": "BETA v1.2.4: restablece la detección y captura automática de la balanza en COM5, sin configuración manual visible, con reconexión silenciosa.",
+  "pub_date": "2026-11-10T19:31:12Z",
+  "version": "1.2.4",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.3/Banco.de.Germoplasma-INIA_1.2.3_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFFweCtUeXZTTUtaa1RTREdCdUptMzZiTE9Fa0VFQlExdEw2aHdlWE9kQWN3YzdiaWs5TnRjRE5qNC9xa2wzbWxYZ1lVTDd6M0E4MVZOamFTV1NOendnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI4NjU2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuM194NjQtc2V0dXAuZXhlCkVFTlBxWllaYWtWeldIdUJ5RVdhQ2dQVDQ3d2I5a0xlaC9qOGNEMnREYjMzQUxQcHNUUVhwRU9rd1gwVlRtOHJaaEltUmhqRmNTWXArU2tpcXpjZkFnPT0K"
+      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.4/Banco.de.Germoplasma-INIA_1.2.4_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFdIN2t6VUNPOEplOUZaMTVXTzhPeTM0dWJOK2hjUklsNUtldWt6alpIUU9PQkxKM3RtZDY0VjI3a1RLTS9zT3pjOGtBK1pBV1ZSRlNkZXYrSGFPd3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzM5MDcyCWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuNF94NjQtc2V0dXAuZXhlCjB1REVyYmRzbEVJYmQ5UlJXWUpNaEdCeW5Zd0lGVzdwTURpM0Fid3JDOGlIWFYwMWNxZ2Jja0hKeUk1NnBEK2VaUHNUbEMvSmpDZkxiSGR0OFJaTUJnPT0K"
     }
   }
 }
