@@ -1,11 +1,11 @@
 {
-  "notes": "BETA v1.2.2: actualización resistente a interrupciones de red. Reintenta automáticamente la consulta y la descarga hasta tres veces, desactiva la compresión problemática y dispone de un segundo manifiesto de respaldo. Conserva y respalda los registros antes de instalar.",
+  "version": "1.2.3",
+  "pub_date": "2026-11-10T16:37:36Z",
+  "notes": "BETA v1.2.3: restaura la conexión automática por COM5 y permite cualquier puerto COM detectado por Windows. Mantiene los reintentos y el canal de respaldo del actualizador. Conserva y respalda los registros antes de instalar.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFZ2MytQMmtkNExocG1CeGsrNUNSQUNTcExmYzIrM1d0QTRIMzBneDJ6bEpDRHA0ektHUnhBdTJyQzFhUXBjQS9VQlNwNndZcnBJM2lSaHkwMmlUdmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI0NzU2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuMl94NjQtc2V0dXAuZXhlCjJKeE9qckRxSlhZcmdDdGE5QWN1bnVmY0RNZWU2UENTSUtvbHRhYVNGbUFYa2xjTUlNc00vWUFMTUFuc24wWWdhNVM2b01xMjJlUVBCMEVHSnBIRkRBPT0K",
-      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.2/Banco.de.Germoplasma-INIA_1.2.2_x64-setup.exe"
+      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.3/Banco.de.Germoplasma-INIA_1.2.3_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFFweCtUeXZTTUtaa1RTREdCdUptMzZiTE9Fa0VFQlExdEw2aHdlWE9kQWN3YzdiaWs5TnRjRE5qNC9xa2wzbWxYZ1lVTDd6M0E4MVZOamFTV1NOendnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI4NjU2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuM194NjQtc2V0dXAuZXhlCkVFTlBxWllaYWtWeldIdUJ5RVdhQ2dQVDQ3d2I5a0xlaC9qOGNEMnREYjMzQUxQcHNUUVhwRU9rd1gwVlRtOHJaaEltUmhqRmNTWXArU2tpcXpjZkFnPT0K"
     }
-  },
-  "version": "1.2.2",
-  "pub_date": "2026-11-10T15:32:36Z"
+  }
 }
