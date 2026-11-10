@@ -1,11 +1,11 @@
 {
-  "version": "1.2.1",
-  "pub_date": "2026-11-10T14:21:37Z",
+  "notes": "BETA v1.2.2: actualización resistente a interrupciones de red. Reintenta automáticamente la consulta y la descarga hasta tres veces, desactiva la compresión problemática y dispone de un segundo manifiesto de respaldo. Conserva y respalda los registros antes de instalar.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFhHVWZMOHoyQTQza1FYOTNVQWFTQzU5UlhackRINjA2MDFjanFyQnZXYUZGL25NdXRaMWhvZGg3MUh3ZXpBK0psSVlJejJsODRGMk80dkVDZDlmZUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzIwNDk2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuMV94NjQtc2V0dXAuZXhlCk1kVlBJMmtPWVVOTGxRRndneDFjYS9Nd1pFVFdxUTN4ekwyczJyMS9FdjlsM3VsSVVpdXc2c1ZaS3E1Q3dYZHV4Mmx6TlJsMlVDMTFVTy9XdlhZdUN3PT0K",
-      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.1/Banco.de.Germoplasma-INIA_1.2.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFZ2MytQMmtkNExocG1CeGsrNUNSQUNTcExmYzIrM1d0QTRIMzBneDJ6bEpDRHA0ektHUnhBdTJyQzFhUXBjQS9VQlNwNndZcnBJM2lSaHkwMmlUdmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI0NzU2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuMl94NjQtc2V0dXAuZXhlCjJKeE9qckRxSlhZcmdDdGE5QWN1bnVmY0RNZWU2UENTSUtvbHRhYVNGbUFYa2xjTUlNc00vWUFMTUFuc24wWWdhNVM2b01xMjJlUVBCMEVHSnBIRkRBPT0K",
+      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.2/Banco.de.Germoplasma-INIA_1.2.2_x64-setup.exe"
     }
   },
-  "notes": "Actualizacion del programa. Sin migracion de datos."
+  "version": "1.2.2",
+  "pub_date": "2026-11-10T15:32:36Z"
 }
