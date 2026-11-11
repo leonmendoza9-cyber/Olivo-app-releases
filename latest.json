@@ -1,11 +1,11 @@
 {
-  "version": "1.2.6",
-  "pub_date": "2026-11-11T19:09:26Z",
-  "notes": "Corrige la captura USB HID de peso en Fruto y Carozo. Controles de evaluación arriba y aviso Guardado sin confirmación al avanzar. Sin migración ni modificación de datos existentes.",
+  "version": "1.2.7",
+  "pub_date": "2026-11-11T19:49:05Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFErS0crNldTRUh1VXdkeFQ4ajVxZ2VYMmsrNm5oWXZSbXlXRGRvVnVLc1VFUG9wVm5Gdjk0cmcyS1ZlSDBJMGZXazFLSlJXOFBkdVlWaDJzZC83eXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDI0MTY2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuNl94NjQtc2V0dXAuZXhlCnFvZzc4ZkwwTldyTGdyci8rRTJpS0pVYWJIQ1ZacGdMNzJKZXBvdUxkcGQzUUlXZlY4NnFLQXgyaFUwa0RKdHN0OW13T2RDR20yM1AwL09FeVNYOEFnPT0K",
-      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.6/Banco.de.Germoplasma-INIA_1.2.6_x64-setup.exe"
+      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.7/Banco.de.Germoplasma-INIA_1.2.7_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFRPR1FlWmtXM2x5WDA2a0ZmaEpXbWVrUlEzT1ArWnFpMkZ1QVRiRlE3ZWwxNnVKZmN2aUhUUmNHVVpNUkVubU9lVjM2ZldTdXA2LzlteTJZV0RpR1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDI2NTQ1CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuN194NjQtc2V0dXAuZXhlCk9QYXJBUm90WHdlNGJrZ3JRdy9FNFE2bytOdGphYVJnRFRNbW5MZElQS2xDZG04eVVOM2FTa0c3ZjM1Ym9LbVRNNjZKTDFxRE94NWNpTmNFNjBQdUJnPT0K"
     }
-  }
+  },
+  "notes": "Diez muestras por página en Fruto, Carozo y Hoja; controles arriba y abajo; navegación visual con flechas; aviso Guardado integrado. Captura HID de mensajes completos y avance de PRINT exclusivamente entre pesos. Sin migración de evaluaciones."
 }
