@@ -1,11 +1,11 @@
 {
-  "notes": "Corrección definitiva de captura automática de balanza USB HID. Se elimina la configuración COM y se acepta punto o coma decimal.",
+  "version": "1.2.6",
+  "pub_date": "2026-11-11T19:09:26Z",
+  "notes": "Corrige la captura USB HID de peso en Fruto y Carozo. Controles de evaluación arriba y aviso Guardado sin confirmación al avanzar. Sin migración ni modificación de datos existentes.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaGI4RFZKSkJvd2lyMms5cCsxZDBsYXIwOXlyRUcvbDdyOVU2aFF2QnM2UWl3MG1Fb01vTVFraC9kaVMxZWp2QTUwMmNWc3ViUDdPU2NqNWpwWGtvbVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzYxNDg2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuNV94NjQtc2V0dXAuZXhlCm1XbzRzdUxGR0dNR29WbTJQeDFTRDdZcWFvZGlhUGRiK3cwaGgvRDJibVUwMUs5ZkphWG1jM3NaMWl0UEN5YXVMdmg4L0wydjI2cHVjWlRaUlRGaENBPT0K",
-      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.5/Banco.de.Germoplasma-INIA_1.2.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUckQrUGhBWkJwaFErS0crNldTRUh1VXdkeFQ4ajVxZ2VYMmsrNm5oWXZSbXlXRGRvVnVLc1VFUG9wVm5Gdjk0cmcyS1ZlSDBJMGZXazFLSlJXOFBkdVlWaDJzZC83eXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDI0MTY2CWZpbGU6QmFuY28gZGUgR2VybW9wbGFzbWEtSU5JQV8xLjIuNl94NjQtc2V0dXAuZXhlCnFvZzc4ZkwwTldyTGdyci8rRTJpS0pVYWJIQ1ZacGdMNzJKZXBvdUxkcGQzUUlXZlY4NnFLQXgyaFUwa0RKdHN0OW13T2RDR20yM1AwL09FeVNYOEFnPT0K",
+      "url": "https://github.com/leonmendoza9-cyber/Olivo-app-releases/releases/download/v1.2.6/Banco.de.Germoplasma-INIA_1.2.6_x64-setup.exe"
     }
-  },
-  "version": "1.2.5",
-  "pub_date": "2026-11-11T01:44:46Z"
+  }
 }
